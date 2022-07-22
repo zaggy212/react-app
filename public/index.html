@@ -26,7 +26,7 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body >
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -40,4 +40,40 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <!-- <script type="text/javascript">
+    window.addEventListener('scroll', reveal );
+
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(i=0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 200;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+
+        }else{
+          reveals[i].classList.remove('active');
+        }
+        
+      }
+    } -->
+
+    
+  <!-- </script> -->
+  <script>
+    // var change = document.querySelector('.whole')
+    // var url = 'https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg'
+
+    // document.getElementsByClassName('whole').style.backgroundImage = `url(${url})`;
+    // var div = document.getElementsById('whole');
+    // document.body.style.backgroundImage = "url('logo.png')"
+    document.getElementById('myDiv').style.backgroundImage = "url('markov-btc.jpg')";
+    
+    
+
+  </script>
 </html>
